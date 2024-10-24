@@ -62,9 +62,13 @@
 	</Configurations>
 	<Files>
 		<Filter Name="_icon">
-		<File RelativePath="..\..\icon\program_icon.rc"/></Filter>
+			<File RelativePath="..\..\icon\program_icon.ico"/>
+			<File RelativePath="..\..\icon\program_icon.rc"/>
+			<File RelativePath="..\..\icon\resource.h"/>
+		</Filter>
 		<Filter Name="src">
-		<File RelativePath="..\..\src\source.f90"/></Filter>
+			<File RelativePath="..\..\src\source.f90"/>
+		</Filter>
 		<File RelativePath="..\..\test\src\main.f90"/>
 		<File RelativePath="..\..\test\src\pauser.f90"/>
 	</Files>
