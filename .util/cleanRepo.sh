@@ -5,11 +5,15 @@
 #  "test"   to only do test/output folder
 #  "lib"    to only do lib         folder
 #  "object" to only do the obj     folder
-# Nothing to do both
+#  "nopause" disables stopping script at completion.
+# 
+#    Not including one or more of 
+#       "example", "lib", or "object" args
+#       will automatically select all three.
 #
 #shopt -s nocasematch
 #
-#---- Get Shell Scripts path  ------------------------------------------------------------
+#---- Get Shell Script path  -------------------------------------------------------------
 #
 ShellDirCleanRepo="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 #
